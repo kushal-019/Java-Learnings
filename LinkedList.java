@@ -71,4 +71,23 @@ class LinkedList{
         System.out.println();
     }
 
+
+    void reverse(){
+        if(head.next == null)return ;
+
+        Node temp = head;
+        Node prev = null;
+        Node curr = head;
+
+        while(curr != null){
+            curr = curr.next;
+            temp.next = prev;
+            prev= temp;
+            temp = curr;
+        }
+
+        head =  prev ;
+        return ;
+    }
+
 }

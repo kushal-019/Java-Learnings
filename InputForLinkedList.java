@@ -7,6 +7,8 @@ class InputForLinkedList{
 
         LinkedList myList1 = new LinkedList();
         LinkedList myList2 = new LinkedList();
+        LinkedList myList3 = new LinkedList();
+        LinkedList myList4 = new LinkedList();
 
         n  = scan.nextInt();
 
@@ -17,6 +19,7 @@ class InputForLinkedList{
         }
 
         myList1.printList();
+        myList2.reverse();
         myList2.printList();
     }
 }
