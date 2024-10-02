@@ -5,10 +5,10 @@ class InputForLinkedList{
         int n;
         Scanner scan = new Scanner(System.in);
 
-        LinkedList myList1 = new LinkedList();
-        LinkedList myList2 = new LinkedList();
-        LinkedList myList3 = new LinkedList();
-        LinkedList myList4 = new LinkedList();
+        LinkedListMannual myList1 = new LinkedListMannual();
+        LinkedListMannual myList2 = new LinkedListMannual();
+        LinkedListMannual myList3 = new LinkedListMannual();
+        LinkedListMannual myList4 = new LinkedListMannual();
 
         n  = scan.nextInt();
 

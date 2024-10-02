@@ -1,12 +1,12 @@
 import java.util.*;
 
-class LinkedList{
+class LinkedListMannual{
 
     Node head;
     private int size;
 
 
-    LinkedList(){
+    LinkedListMannual(){
         this.size = 0 ;
     }
 
