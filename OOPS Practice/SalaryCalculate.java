@@ -11,6 +11,10 @@ class FullTimeEmployee extends Employee{
     
 }
 class PartTimeEmployee extends Employee{
+    public static int count = 0;
+    PartTimeEmployee(){
+        count++;
+    }
     void calculateSalary(){
         System.out.println("Salary : Rs " +  5000*6  );
     }
@@ -33,5 +37,6 @@ class SalaryCalculate{
         ft.calculateSalary();
         pt1.calculateSalary();
         pt2.calculateSalary(9);
+        System.out.println(pt1.count);
     }
 }
